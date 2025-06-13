@@ -13,14 +13,8 @@
     "windows": [
       {
         "label": "home",
-        "title": "Home",
-        "width": 1100,
-        "height": 620,
-        "fullscreen": false
-      },
-      {
-        "label": "test",
-        "title": "test",
+        "title": "Temperos da clara",
+        "url": "/#/",
         "width": 1100,
         "height": 620,
         "fullscreen": false
