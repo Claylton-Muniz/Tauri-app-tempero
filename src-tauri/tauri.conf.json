@@ -17,6 +17,8 @@
         "url": "/#/",
         "width": 1100,
         "height": 620,
+        "minWidth": 600,
+        "minHeight": 400,
         "fullscreen": false
       }
     ],
