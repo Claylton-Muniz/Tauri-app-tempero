@@ -1,0 +1,33 @@
+.area_component {
+  width: 205px;
+  height: 225px;
+  background-color: #606060;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.area_component:hover {
+  background-color: #707070; /* Um efeito de hover sutil, opcional */
+}
+
+.area_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #A0A0A0; /* Borda circular cinza */
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  color: #A0A0A0;
+  font-size: 18px;
+}
+
+.label_text {
+  font-size: 15px;
+  color: #A0A0A0;
+}
