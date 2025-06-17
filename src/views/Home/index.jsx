@@ -1,6 +1,7 @@
-import styles from './Home.module.css'
-import BarSearch from '@/components/BarSearch';
-import AddTempero from '@/components/AddTempero';
+import styles from "./Home.module.css";
+import BarSearch from "@/components/BarSearch";
+import AddTempero from "@/components/AddTempero";
+import CardTempero from "@/components/CardTempero";
 
 const Home = () => {
   return (
@@ -8,9 +9,12 @@ const Home = () => {
       <BarSearch />
       <div className={styles.area_temperos}>
         <AddTempero />
+        <CardTempero />
+        <CardTempero />
+        <CardTempero />
       </div>
     </main>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
